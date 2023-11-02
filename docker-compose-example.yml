@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    depends_on:
+      -
+    links:
+      -
+    command:
+    ports:
+      -
+    volumes:
+      -
+      -
+    environment:
+      NODE_ENV:
+      PORT:
+  redis:
+    image:
+    expose:
+      -
+    environment:
+      REDIS_PASSWORD:
